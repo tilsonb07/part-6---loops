@@ -22,12 +22,18 @@ namespace part_6___loops
                 max = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Please enter a number in between your min and max value...");
                 number = Convert.ToInt32(Console.ReadLine());
-            } while (number > min);
-            Console.WriteLine("Please enter a value between your min and max values...");
+                
             
+            
+            } while (number > min);
+                while (max < number) ;
+                    Console.WriteLine("Please enter a value between your min and max values...");
             
             
 
+
+
+            Console.ReadLine();
 
 
 
