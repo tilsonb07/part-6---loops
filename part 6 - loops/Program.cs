@@ -10,6 +10,44 @@ namespace part_6___loops
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Please enter a minimum and maximum value...");
+            string first = Console.ReadLine();
+            string second = Console.ReadLine();
+            int min = Convert.ToInt32(first);
+            int max = Convert.ToInt32(second);
+            string bettween = Console.ReadLine();
+            int middle = Convert.ToInt32(bettween);        
+            
+         
+          
+         
+
+
+
+            
+          
+              
+                
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
+
     }
 }
