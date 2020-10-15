@@ -61,11 +61,11 @@ namespace part_6___loops
                 score = Convert.ToInt32(Console.ReadLine());
                 if (score >= 70)
                     highscore = highscore + 1;
-                Console.WriteLine($"scores over 70 is {highscore}");
+                
 
 
             }
-
+            Console.WriteLine($"scores over 70 is {highscore}");
             Console.ReadLine();
 
         }
